@@ -1,0 +1,6 @@
+# pixi environments
+.pixi/*
+!.pixi/config.toml
+!.pixi/load_dotenv.sh
+.env
+data/
