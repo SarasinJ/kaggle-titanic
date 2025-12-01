@@ -6,7 +6,9 @@ platforms = ["osx-arm64","linux-64"]
 version = "0.1.0"
 
 [tasks]
-download-data = "mkdir -p data/raw data/processed && kaggle competitions download -c titanic -p data/raw && unzip -o data/raw/titanic.zip -d data/raw"
+download-titanic-data = "mkdir -p data/titanic/raw data/titanic/processed && kaggle competitions download -c titanic -p data/titanic/raw && unzip -o data/titanic/raw/titanic.zip -d data/titanic/raw"
+download-house-prices-data = "mkdir -p data/house-prices/raw data/house-prices/processed && kaggle competitions download -c house-prices-advanced-regression-techniques -p data/house-prices/raw && unzip -o data/house-prices/raw/house-prices-advanced-regression-techniques.zip -d data/house-prices/raw"
+kaggle-playground = ".pixi/playground_scaffold.sh"
 
 [dependencies]
 python = ">=3.14.0,<3.15"
