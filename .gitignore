@@ -1,9 +1,10 @@
 # pixi environments
-.pixi/*
-!.pixi/config.toml
-!.pixi/load_dotenv.sh
+# .pixi/*
+# !.pixi/config.toml
+# !.pixi/load_dotenv.sh
 .env
 data/
 .vscode/
 .ipynb_checkpoints/
 .DS_Store
+.github/
