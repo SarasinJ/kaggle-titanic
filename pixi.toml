@@ -6,6 +6,7 @@ platforms = ["osx-arm64","linux-64"]
 version = "0.1.0"
 
 [tasks]
+download-data = "kaggle competitions download -c titanic -p data/raw && unzip -o data/raw/titanic.zip -d data/raw"
 
 [dependencies]
 python = ">=3.14.0,<3.15"
