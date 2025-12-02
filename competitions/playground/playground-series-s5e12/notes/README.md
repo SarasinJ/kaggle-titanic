@@ -28,3 +28,7 @@ etc.
 - **Final Submission Deadline** - December 31, 2025
 
 All deadlines are at 11:59 PM UTC on the corresponding day unless otherwise noted.
+
+## Progress Log
+
+- **2025-12-02** – Notebook scaffolded with a roadmap cell outlining the staged workflow (EDA → preprocessing → modeling → submission). Baseline RandomForest (10k-row subset) currently averages ~0.67 ROC-AUC. Next up: transition to full-dataset EDA and document findings so we can design leakage-aware preprocessing pipelines.
